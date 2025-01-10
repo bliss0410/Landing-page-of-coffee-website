@@ -1,0 +1,21 @@
+.footer {
+  @apply bg-black pt-3;
+}
+.social {
+  @apply text-white  flex justify-center gap-3 mb-6;
+}
+.icon {
+  @apply text-white  flex justify-center gap-6 mb-6;
+}
+.icon i {
+  @apply text-white align-middle;
+}
+.email i {
+  @apply text-[#f01c1c]  cursor-pointer text-[34px] mb-[-12px];
+}
+.email {
+  @apply flex justify-center items-center gap-2 mb-6;
+}
+.rights {
+  @apply bg-[#f01c1c] text-center text-white;
+}

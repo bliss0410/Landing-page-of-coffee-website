@@ -1,0 +1,37 @@
+.landing {
+  background-image: url(/src/assets/img/banner-bg.png);
+  @apply text-white h-auto;
+}
+.logo {
+  @apply text-[4.5rem] font-bold tracking-[0.5px];
+}
+.nav {
+  @apply py-[20px] md:flex md:gap-8 md:items-center;
+}
+.nav_item {
+  @apply font-medium text-[1.8rem] leading-[2] py-[5px] rounded-[2px] cursor-pointer hover:text-red-500;
+}
+.nav_item.active {
+  @apply bg-[#f01c1c];
+}
+.nav_list {
+  @apply my-[15px] list-none text-center  md:my-0 md:flex md:gap-8;
+}
+.hero {
+  @apply py-[20px];
+}
+.coffee {
+  @apply font-bold text-[3.2rem];
+}
+.button {
+  @apply w-40 font-light text-[1.6rem] rounded-md bg-[#f01c1c] p-3;
+}
+.button1 {
+  @apply w-40 font-light text-[1.6rem] rounded-md bg-white text-black p-3;
+}
+.more {
+  @apply py-[10px];
+}
+header {
+  @apply flex justify-between;
+}

@@ -1,0 +1,25 @@
+.offer {
+  @apply mx-auto;
+  width: 90%;
+}
+.our {
+  @apply font-semibold text-center text-[3rem];
+}
+.cad {
+  @apply gap-10 bg-slate-800 pb-6;
+}
+.type {
+  @apply text-center font-medium text-[2.5rem] text-white;
+}
+.look {
+  @apply text-center pb-5 text-white;
+}
+.moree {
+  @apply border-white border-[2px] rounded-md px-2 py-3 mx-auto block text-white;
+}
+.flexbox {
+  @apply flex flex-col gap-5 md:flex-row;
+}
+.our {
+  @apply pb-[60px];
+}
